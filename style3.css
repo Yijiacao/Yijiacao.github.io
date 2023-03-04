@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f1;
+		}
+		h1 {
+			font-family: "Times New Roman", serif;
+		}
+		nav {
+			background-color: #313;
+			color: #ffe;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		nav ul {
+			list-style-type: none;
+			display: flex;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #ffe;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		nav a:hover {
+			color: #ccc;
+		}
+		.main-content {
+			margin: 20px;
+			padding: 10px;
+			background-color: #ffe;
+			border-radius: 5px;
+		}
+		.side-content {
+			margin: 20px;
+			padding: 10px;
+			background-color: #ffe;
+			border-radius: 5px;
+			float: right;
+			width: 30%;
+		}
+	</style>
+</html>
